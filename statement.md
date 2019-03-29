@@ -14,7 +14,7 @@ The following code is not possible:
 
 ```kotlin runnable
 
-fun test() {
+fun main(args: Array<String>) {
     var a: String = "abc"
     a = null // compilation error
     }
@@ -22,7 +22,7 @@ fun test() {
 
 Add a "?" to the value type to allow this:
 ```kotlin runnable
-fun test() {
+fun main(args: Array<String>) {
     var a: String? = "abc"
     a = null //this is ok
     }
@@ -31,7 +31,7 @@ fun test() {
 But if you want to do something with those nullable values, you have to check for null:
 
 ```kotlin runnable
-fun test() {
+fun main(args: Array<String>) {
     var a: String? = "abc"
     a = null //this is ok
     println(a?.size())
