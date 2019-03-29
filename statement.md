@@ -43,8 +43,7 @@ But if you want to do something with those nullable values, you have to check fo
 // { autofold
 fun main(args: Array<String>) {
 // }
-    var a: String? = "abc"
-    a = null //this is ok
+    var a: String? = null
     println(a?.length)
 // { autofold
 }
@@ -52,4 +51,7 @@ fun main(args: Array<String>) {
 ```
 See https://kotlinlang.org/docs/reference/null-safety.html for more examples
 
+### Emphasis on Immutabilty
+
+[Shared mutable state is the root of all evil](https://henrikeichenhardt.blogspot.com/2013/06/why-shared-mutable-state-is-root-of-all.html)
 
