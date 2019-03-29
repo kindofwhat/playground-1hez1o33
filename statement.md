@@ -23,6 +23,7 @@ fun main(args: Array<String>) {
 ```
 
 How to prevent compilation error here?
+<details><summary>CLICK ME</summary>
 
 ::: Solution
 Add a "?" to the value type to allow this:
@@ -39,7 +40,7 @@ fun main(args: Array<String>) {
 // }
 
 :::
-
+</details>
 
 
 
