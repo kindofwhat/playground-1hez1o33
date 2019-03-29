@@ -23,9 +23,9 @@ fun main(args: Array<String>) {
 ```
 
 How to prevent compilation error here?
-<details><summary>CLICK ME</summary>
+<details><summary>Solution</summary>
 
-::: Solution
+
 Add a "?" to the value type to allow this:
 ```kotlin runnable
 // { autofold
@@ -39,7 +39,6 @@ fun main(args: Array<String>) {
 }
 // }
 
-:::
 </details>
 
 
