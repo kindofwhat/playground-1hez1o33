@@ -24,9 +24,7 @@ fun main(args: Array<String>) {
 
 How to prevent compilation error here?
 
-
-
-
+::: Solution
 Add a "?" to the value type to allow this:
 ```kotlin runnable
 // { autofold
@@ -39,6 +37,12 @@ fun main(args: Array<String>) {
 // { autofold
 }
 // }
+
+:::
+
+
+
+
 ```
 
 But if you want to do something with those nullable values, you have to check for null:
