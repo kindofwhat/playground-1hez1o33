@@ -24,8 +24,10 @@ Add a "?" to the value type to allow this:
 ```kotlin runnable
 fun main(args: Array<String>) {
     var a: String? = "abc"
+    println(a)
     a = null //this is ok
-    }
+    println(a)
+}
 ```
 
 But if you want to do something with those nullable values, you have to check for null:
@@ -34,8 +36,8 @@ But if you want to do something with those nullable values, you have to check fo
 fun main(args: Array<String>) {
     var a: String? = "abc"
     a = null //this is ok
-    println(a?.size())
-    }
+    println(a?.length)
+}
 ```
 
 
