@@ -8,10 +8,11 @@ Kotlin is more secure than Java, mainly due to two language features
 
 ### Null safety
 
-This Kotlin template lets you get started quickly with a simple one-page playground.
+See https://kotlinlang.org/docs/reference/null-safety.html
+
+
 
 ```kotlin runnable
-fun main(args: Array<String>) {
-    println("Hello, World!")
-}
+var a: String = "abc"
+a = null // compilation error
 ```
