@@ -23,7 +23,7 @@ fun main(args: Array<String>) {
 ```
 
 How to prevent compilation error here?
-<details><summary>Solution</summary>
+:::>Solution
 
 
 Add a "?" to the value type to allow this:
@@ -38,12 +38,12 @@ fun main(args: Array<String>) {
 // { autofold
 }
 // }
-
-</details>
-
-
-
 ```
+
+:::
+
+
+
 
 But if you want to do something with those nullable values, you have to check for null:
 (Using the `?.` operator. This is the "null safe dot operator", or "safe call operator")
