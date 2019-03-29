@@ -31,6 +31,7 @@ fun main(args: Array<String>) {
 ```
 
 But if you want to do something with those nullable values, you have to check for null:
+(Using the `?.` operator. This is the "null safe dot operator")
 
 ```kotlin runnable
 fun main(args: Array<String>) {
