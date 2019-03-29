@@ -22,6 +22,11 @@ fun main(args: Array<String>) {
 // }
 ```
 
+How to prevent compilation error here?
+
+
+
+
 Add a "?" to the value type to allow this:
 ```kotlin runnable
 // { autofold
@@ -54,4 +59,8 @@ See https://kotlinlang.org/docs/reference/null-safety.html for more examples
 ### Emphasis on Immutabilty
 
 [Shared mutable state is the root of all evil](https://henrikeichenhardt.blogspot.com/2013/06/why-shared-mutable-state-is-root-of-all.html)
+
+Kotlin has 2 main constructs to prevent shared mutable state:
+
+1. E
 
