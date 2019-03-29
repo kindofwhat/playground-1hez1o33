@@ -14,25 +14,26 @@ The following code is not possible:
 ```kotlin runnable
 // { autofold
 fun main(args: Array<String>) {
-//  }
+// }
     var a: String = "abc"
     a = null // compilation error
-    // { autofold
+// { autofold
     }
-//  }
+// }
 ```
 
 Add a "?" to the value type to allow this:
 ```kotlin runnable
 // { autofold
 fun main(args: Array<String>) {
+// }
     var a: String? = "abc"
     println(a)
     a = null //this is ok
     println(a)
-    // { autofold
+// { autofold
 }
-//  }
+// }
 ```
 
 But if you want to do something with those nullable values, you have to check for null:
@@ -41,12 +42,13 @@ But if you want to do something with those nullable values, you have to check fo
 ```kotlin runnable
 // { autofold
 fun main(args: Array<String>) {
+// }
     var a: String? = "abc"
     a = null //this is ok
     println(a?.length)
-    // { autofold
+// { autofold
 }
-//  }
+// }
 ```
 See https://kotlinlang.org/docs/reference/null-safety.html for more examples
 
