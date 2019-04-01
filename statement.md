@@ -80,4 +80,6 @@ fun main(args: Array<String>) {
 }
 // }
 ```
-This code fails, because it reassigns to a *val*, you would have to change above code to a var
+This code fails, because it reassigns to a *val*, you would have to change above code to a var.
+
+This also works with java, using the "final" keyword
