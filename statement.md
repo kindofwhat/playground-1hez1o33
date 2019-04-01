@@ -83,3 +83,27 @@ fun main(args: Array<String>) {
 This code fails, because it reassigns to a *val*, you would have to change above code to a var.
 
 This also works with java, using the "final" keyword
+
+```java runnable
+//{ autofold
+package com.yourself;
+
+import com.pizzapi.*;
+
+public class Pizza {
+
+public static void orderPizza() throws PizzaException {
+//}
+
+    final Integer a = 1;
+    println(a)
+    a = 2;
+    println(a)
+    
+
+//{ autofold
+}
+
+}
+//}
+```
