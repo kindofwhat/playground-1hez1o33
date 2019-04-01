@@ -91,7 +91,7 @@ package whykotlin;
 
 public class Final {
 
-public static void final() throws PizzaException {
+public static void final() {
 //}
 
     final Integer a = 1;
