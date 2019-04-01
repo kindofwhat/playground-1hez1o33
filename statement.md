@@ -86,13 +86,12 @@ This also works with java, using the "final" keyword
 
 ```java runnable
 //{ autofold
-package com.yourself;
+package whykotlin;
 
-import com.pizzapi.*;
 
-public class Pizza {
+public class Final {
 
-public static void orderPizza() throws PizzaException {
+public static void final() throws PizzaException {
 //}
 
     final Integer a = 1;
