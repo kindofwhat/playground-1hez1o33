@@ -66,5 +66,18 @@ See https://kotlinlang.org/docs/reference/null-safety.html for more examples
 
 Kotlin has 2 main constructs to prevent shared mutable state:
 
-1. E
+1. val vs var keyword
 
+```kotlin runnable
+// { autofold
+fun main(args: Array<String>) {
+// }
+    val a: String? = "abc"
+    println(a)
+    a = "bcd"
+    println(a)
+// { autofold
+}
+// }
+```
+This code fails, because it reassigns to a *val*, you would have to change above code to a var
