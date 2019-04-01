@@ -8,14 +8,19 @@ Kotlin has its own release cycle, and is happily running on older JVM versions. 
 
 ```kotlin runnable
 // { autofold
+import kotlinx.coroutines.*
+
 fun main(args: Array<String>) {
 // }
-    repeat(100_000) { // launch a lot of coroutines
-        launch {
-            delay(1000L)
-            print(".")
+    runBlocking {
+//sampleStart
+    GlobalScope.launch {
+        repeat(1000) { i ->
+            println("I'm sleeping $i ...")
+            delay(500L)
         }
     }
+    delay(1300L) 
 // { autofold
     }
 // }
