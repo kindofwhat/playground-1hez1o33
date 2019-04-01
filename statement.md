@@ -86,12 +86,10 @@ This also works with java, using the "final" keyword
 
 ```java runnable
 //{ autofold
-package whykotlin;
-
 
 public class Final {
 
-public static void final() {
+public static void main(String[] args) {
 //}
 
     final Integer a = 1;
