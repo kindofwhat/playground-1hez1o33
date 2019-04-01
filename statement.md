@@ -96,9 +96,9 @@ public static void orderPizza() throws PizzaException {
 //}
 
     final Integer a = 1;
-    println(a)
+    System.out.println(a)
     a = 2;
-    println(a)
+    System.out.println(a)
     
 
 //{ autofold
