@@ -104,3 +104,6 @@ public static void main(String[] args) {
 }
 //}
 ```
+But there are some issues with the final keyword, mainly that it is ambigous: it is both used to declare variables final and methods as not overwritable. Furthermore it is simply one word more which more often that not tends to be forgotten
+
+
