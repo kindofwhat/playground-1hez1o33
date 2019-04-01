@@ -4,3 +4,5 @@ plan:
   statement: intro.md
 - title: Security
   statement: security.md
+- title: Speed of Innovation
+  statement: speed-of-innovation.md
