@@ -1,6 +1,6 @@
 title: Why Kotlin
 plan:
 - title: Intro
-  statement: statement.md
+  statement: intro.md
 - title: Security
   statement: security.md
