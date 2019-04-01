@@ -87,7 +87,7 @@ This also works with java, using the "final" keyword
 ```java runnable
 //{ autofold
 
-public class Final {
+public class Main {
 
 public static void main(String[] args) {
 //}
