@@ -50,3 +50,6 @@ fun main(args: Array<String>) {
     }
 // }
 ```
+
+
+Other examples and the generall differences to Java can be found [on the kotlin website](https://kotlinlang.org/docs/reference/comparison-to-java.html)
