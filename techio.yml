@@ -7,5 +7,4 @@ plan:
 - title: Speed of Innovation
   statement: speed-of-innovation.md
 - title: Integration with Java
-  statement: integration-java
-  .md
+  statement: integration-java.md
