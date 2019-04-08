@@ -6,5 +6,5 @@ plan:
   statement: security.md
 - title: Speed of Innovation
   statement: speed-of-innovation.md
-- title: Integration with Java
+- title: Integrations
   statement: integration-java.md
