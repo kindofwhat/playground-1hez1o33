@@ -37,18 +37,12 @@ fun main(args: Array<String>) {
 // }
    var x: Any //no special type
    
-   //TODO: intialize string hiere
-   
-   
-   if (x is String) {
-        print(x.length) // x is automatically cast to String
-    }
-    
-   //TODO: intialize hiere
+   //TODO: intialize string here
+   print(x.length) // smart casting here
 
-   if (x is Int) {
-        print(x*2) // x is automatically cast to String
-    }
+   //TODO: intialize int here
+
+    print(x*2) // smart casting here
     
 // { autofold
     }
