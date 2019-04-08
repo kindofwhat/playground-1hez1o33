@@ -10,5 +10,9 @@ Kotlin integrates very well with Java:
 
 # Integration with JavaScript
 
-Javascript is a first class [runtime](https://kotlinlang.org/docs/tutorials/javascript/kotlin-to-javascript/kotlin-to-javascript.html) for Kotlin
+Javascript is a first class [runtime](https://kotlinlang.org/docs/tutorials/javascript/kotlin-to-javascript/kotlin-to-javascript.html) for Kotlin.
+This allows for interessting scenarios:
+
+* Kotlin could be used to define objects which are created and consumed both in the browser and on the backend.
+* Kotlin can make use of the  [ts2kt](https://github.com/Kotlin/ts2kt) TypeScript-> Kotlin converter to create Kotlin artifacts out of Typescript definitions
 
