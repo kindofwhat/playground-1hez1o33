@@ -32,7 +32,6 @@ Kotlin has some other advanced features. One of the most interessting ones are [
 
 ```kotlin runnable
 // { autofold
-import kotlinx.coroutines.*
 
 fun main(args: Array<String>) {
 // }
