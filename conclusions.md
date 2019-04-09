@@ -9,14 +9,13 @@ Kotlin has been developed with a pragmatic approach and incorporates many
 
 Ok, let me elaborate: using kotlin is overhead, plain and simple: there is another compiler
 (arguably slower than java's), there is the overhead to learn a new language, and kotlin itself
-will never be the "first" language on the jvm. 
+will never be the "first" language on the jvm.
 
 
-More about this on this wonderfull [post](https://medium.com/@BladeCoder/exploring-kotlins-hidden-costs-part-1-fbb9935d9b62) on Medium.
+More about the hidden costs of Kotlin on this wonderfull [post](https://medium.com/@BladeCoder/exploring-kotlins-hidden-costs-part-1-fbb9935d9b62) on Medium.
 
 
-And then there is always the possibilty to
-shoot oneself in the foot, with style, i.e. by using something  idiomatic but having a performance 
+And then there is always the possibilty to shoot oneself in the foot, with style, i.e. by using something  idiomatic but having a performance 
 overhead. 
 
 
@@ -56,15 +55,8 @@ println("$res1 vs $res2")
 // }
 ```
 
+Having said this: I am sure that the benefits outweight the drawbacks big time when usig Kotlin instead of Java. You have to introduce this new language, teach the "right" way to do stuff in Kotlin, coach the developers and reflect the used patterns and techniques.
 
-
-
-
-Having said this.
-
- 
- 
- 
  Kotlin, in a way, is more comparable to languages like [typescript](http://typescript.org/) 
 or maybe even [c#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/).
 
