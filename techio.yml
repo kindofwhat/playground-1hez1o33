@@ -8,3 +8,5 @@ plan:
   statement: speed-of-innovation.md
 - title: Integration with Java
   statement: integration-java.md
+- title: Conclusions and where to go from here
+  statement: conclusions.md
