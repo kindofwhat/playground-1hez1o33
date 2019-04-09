@@ -9,32 +9,56 @@ Kotlin has been developed with a pragmatic approach and incorporates many
 
 Ok, let me elaborate: using kotlin is overhead, plain and simple: there is another compiler
 (arguably slower than java's), there is the overhead to learn a new language, and kotlin itself
-will never be the "first" language on the jvm. And then there is always the possibilty to
+will never be the "first" language on the jvm. 
+
+
+More about this on this wonderfull [post](https://medium.com/@BladeCoder/exploring-kotlins-hidden-costs-part-1-fbb9935d9b62) on Medium.
+
+
+And then there is always the possibilty to
 shoot oneself in the foot, with style, i.e. by using something  idiomatic but having a performance 
 overhead. 
 
+
 from https://craigrussell.io/2019/03/shooting-yourself-in-the-foot-while-adding-an-element-to-a-kotlin-list/
-//val itemsToAdd = 500_000
 
-// val list = mutableListOf<Int>()
-val tMutableList = measureNanoTime {
-    val list = mutableListOf<Int>()
+
+```kotlin runnable
+// { autofold
+  import kotlin.system.measureNanoTime
+
+fun main(args: Array<String>) {
+// }
+
+
+val itemsToAdd = 5_000
+val myList = mutableListOf<Int>()
+
+val res1 = measureNanoTime {
     for (i in 1..itemsToAdd) {
-        list += i
+        myList += i
     }
 }
-Timber.i("Using += on `MutableList<Int>` took ${TimeUnit.NANOSECONDS.toMillis(tMutableList)}ms")
 
 
-// var list: List<Int> = mutableListOf()
-val t = measureNanoTime {
-    var list: List<Int> = mutableListOf()
+var myList2: List<Int> = mutableListOf()
+val res2 = measureNanoTime {
     for (i in 1..itemsToAdd) {
-       list += i
+        myList2 += i
     }
 }
 
-More about this on this wonderfull [post](https://medium.com/@BladeCoder/exploring-kotlins-hidden-costs-part-1-fbb9935d9b62) on Medium.
+println("$res1 vs $res2")
+
+
+// { autofold
+    }
+// }
+```
+
+
+
+
 
 Having said this.
 
