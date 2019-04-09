@@ -19,8 +19,3 @@ This allows for interessting scenarios:
 # Native Integration
 [Kotlin Native](https://kotlinlang.org/docs/reference/native-overview.html) is the initiative to create a version of Kotlin runnable on all "important" platforms like iOs, Android, and also WebAssembly.
 
-
-# Conclusion
-
-Kotlin has been developed with a pragmatic approach and incorporates many "lession learned" of older languages. There is almost no downside compared to java, while being a modern and approachable language.
-
