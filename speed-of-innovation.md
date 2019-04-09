@@ -1,6 +1,6 @@
 # Speed of Innovation
 
-Java has gone through a major ramp up regarding speed of innovation. Currently Java is releasing a new major version of the JVM every 6 months.
+Java has gone through a major ramp up regarding speed of innovation. Currently Java is releasing a new major version of the Java language every 6 months.
 
 This is good news for all java developers, but there is one Problem: most businesses are not able to keep up with that speed, and therefore most businesses are still on JVM 8 (or even older versions). 
 
