@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
 // }
 ```
 
-How to prevent compilation error here?
+Variables in Kotlin are not nullable unless explicitely stated. How do we prevent a compilation error in the above piece of code?
 :::Solution
 
 
@@ -58,7 +58,8 @@ fun main(args: Array<String>) {
 }
 // }
 ```
-See https://kotlinlang.org/docs/reference/null-safety.html for more examples
+See https://kotlinlang.org/docs/reference/null-safety.html for more examples.
+If you are familier with freemarker you might recognise similarites: https://freemarker.apache.org/docs/dgui_template_exp.html#dgui_template_exp_missing
 
 ### Emphasis on Immutabilty
 
@@ -92,7 +93,7 @@ public class Main {
 public static void main(String[] args) {
 //}
 
-    final Integer a = 1;
+    final int a = 1;
     System.out.println(a);
     a = 2;
     System.out.println(a);
@@ -104,6 +105,5 @@ public static void main(String[] args) {
 }
 //}
 ```
-But there are some issues with the final keyword, mainly that it is ambigous: it is both used to declare variables final and methods as not overwritable. Furthermore it is simply one word more which more often that not tends to be forgotten
-
+But there are some issues with the *final* keyword, mainly that it is ambigous: it is both used to declare variables immutable and to put constraints on inheritance.
 
