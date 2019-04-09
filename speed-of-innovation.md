@@ -37,12 +37,12 @@ Try to initialize the var x once as String and once as Int. The Kotlin compiler 
 
 fun main(args: Array<String>) {
 // }
-   var x: Any //no special type
+    var x: Any //no special type
    
-   //TODO: intialize string here
-   print(x.length) // smart casting here
+    //TODO: intialize string here
+    print(x.length) // smart casting here
 
-   //TODO: intialize int here
+    //TODO: intialize int here
 
     print(x*2) // smart casting here
     
