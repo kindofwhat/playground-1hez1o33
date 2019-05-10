@@ -65,9 +65,9 @@ If you are familier with freemarker you might recognise similarites: https://fre
 
 [Shared mutable state is the root of all evil](https://henrikeichenhardt.blogspot.com/2013/06/why-shared-mutable-state-is-root-of-all.html)
 
-Kotlin has 2 main constructs to prevent shared mutable state:
+Kotlin has one main constructs to prevent shared mutable state:
 
-1. val vs var keyword
+## val vs var keyword
 
 ```kotlin runnable
 // { autofold
@@ -105,5 +105,7 @@ public static void main(String[] args) {
 }
 //}
 ```
-But there are some issues with the *final* keyword, mainly that it is ambigous: it is both used to declare variables immutable and to put constraints on inheritance.
+But there are some issues with the *final* keyword, mainly that it is ambigous: it is both used to declare variables immutable and to put constraints on inheritance. Furthermore you always have to ask yourself if you really want to use a `var` in Kotlin, while in Java you have to not forget the `final` keyword
+
+
 
