@@ -23,6 +23,7 @@ fun main(args: Array<String>) {
         }
     }
     delay(1300L) 
+    }
 // { autofold
     }
 // }
