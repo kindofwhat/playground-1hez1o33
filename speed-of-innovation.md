@@ -36,7 +36,8 @@ suspend fun computation2(): Int {
 fun printCurrentTime(message: String) {
     val time = (SimpleDateFormat("hh:mm:ss")).format(Date())
     println("[$time] $message")
-}```
+}
+```
 
 Go to https://pl.kotl.in/1RO1ygMUT to see it in action
 
