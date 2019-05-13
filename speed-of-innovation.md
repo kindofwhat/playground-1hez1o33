@@ -29,7 +29,7 @@ fun main(args: Array<String>) {
 // }
 ```
 
-Go to https://pl.kotl.in/zj7c8cux7 to see it in action
+Go to https://pl.kotl.in/YCE8BfVPg to see it in action
 
 Kotlin has some other advanced features. One of the most interessting ones are [smart casts](https://kotlinlang.org/docs/reference/typecasts.html). 
 
