@@ -29,6 +29,10 @@ fun main(args: Array<String>) {
 // }
 ```
 
+```html
+<iframe src="https://pl.kotl.in/zj7c8cux7"></iframe>
+```
+
 Kotlin has some other advanced features. One of the most interessting ones are [smart casts](https://kotlinlang.org/docs/reference/typecasts.html). 
 
 Try to initialize the var x once as String and once as Int. The Kotlin compiler is intelligent enough to cast to the respective type
