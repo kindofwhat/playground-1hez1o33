@@ -8,7 +8,7 @@ Kotlin has its own release cycle, and is happily running on older JVM versions. 
 
 Note: the following snippet does not run on tech.io. It looks like coroutines are not supported yet...
 
-```kotlin runnable
+```kotlin
 // { autofold
 import kotlinx.coroutines.*
 
@@ -29,9 +29,7 @@ fun main(args: Array<String>) {
 // }
 ```
 
-```html runnable
-<iframe src="https://pl.kotl.in/zj7c8cux7"></iframe>
-```
+Go to https://pl.kotl.in/zj7c8cux7 to see it in action
 
 Kotlin has some other advanced features. One of the most interessting ones are [smart casts](https://kotlinlang.org/docs/reference/typecasts.html). 
 
