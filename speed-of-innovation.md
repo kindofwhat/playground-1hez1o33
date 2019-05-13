@@ -29,7 +29,7 @@ fun main(args: Array<String>) {
 // }
 ```
 
-```html
+```html runnable
 <iframe src="https://pl.kotl.in/zj7c8cux7"></iframe>
 ```
 
