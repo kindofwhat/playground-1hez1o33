@@ -63,4 +63,4 @@ or maybe even [c#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-gu
 Innovation is taking place at a breathtaking pace, while still managing to be simple 
 enough to be the "first language" to learn.
 
-If you want to try out kotlin: [Just go ahead](https://try.kotlinlang.org)
+If you want to try out kotlin: [Just go ahead](https://try.kotlinlang.org), [or play with it](https://play.kotlinlang.org)
